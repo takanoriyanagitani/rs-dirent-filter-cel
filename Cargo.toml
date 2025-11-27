@@ -3,6 +3,18 @@ name = "rs-dirent-filter-cel"
 version = "0.1.0"
 edition = "2024"
 
+description = "Filters directory entries using CEL."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-dirent-filter-cel"
+homepage = "https://github.com/takanoriyanagitani/rs-dirent-filter-cel"
+documentation = "https://docs.rs/rs-dirent-filter-cel/latest"
+keywords = ["dirent", "filter", "cel", "filesystem"]
+categories = ["command-line-utilities"]
+
+exclude = [
+	"dirent-filter-cel",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
